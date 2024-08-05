@@ -1,9 +1,21 @@
 
-//console.log(connect);
-console.log(12345);
+$(document).ready(function() {
+    // 사이드바 토글 기능
+    $("#toggleButton").click(function() {
+        $("#sidebar").toggleClass("hidden");
+        $(".video_selection").toggleClass("moved");
+    });
+
+    // 서브메뉴 토글 기능
+    const navItem = document.querySelector('.nav-item.na');
+    const subMenu = document.querySelector('.sub-menu');
+
+    navItem.addEventListener('click', () => {
+        subMenu.style.display = subMenu.style.display === 'block' ? 'none' : 'block';
+    });
 
 const swiper = new Swiper('.swiper-container', {
-    direction: 'vertical',
+    direction: 'horizontal',
     loop: false,
     // autoplay: false,
     slidesPerView: 4,
@@ -40,3 +52,5 @@ const swiper = new Swiper('.swiper-container', {
         },
     },
 }});
+
+});
