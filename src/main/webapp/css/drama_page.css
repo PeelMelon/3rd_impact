@@ -299,16 +299,18 @@ i{
 }
 
 .swiper-container{
-    
+    width: 100%;
 }
 
 .top20container .top20_box .swiper-wrapper {
+	position: relative;
     margin-top: 20px;
     z-index: 4;
 }
 
 .swiper-wrapper .swiper-slide {
-    
+	cursor: pointer;
+	position: relative;
 }
 
 .top20_box .swiper-slide img {
@@ -320,9 +322,6 @@ i{
     z-index: 5;
 }
 
-.top20_box .slide-slide img:hover {
-    cursor: pointer;
-}
 
 .top20_box .swiper-slide img.crop {
     width: 213px;
@@ -331,22 +330,53 @@ i{
 }
 
 .top20_box .swiper-slide .r_tilte {
-    display: block;
+    display: flex;
     text-align: left;
-    margin-top: 10px;
-    margin-top: 10px;
+    align-items: end;
+    /* margin-top: 10px; */
+    padding-left: 15px;
+    padding-bottom: 10px;
     font-size: 16px;
     font-weight: 500;
     color: #666;
 }
 
-.swiper-pagination {
+.swiper-wrapper .rank {
+    position: relative;
+    font-size: 40px;
+    font-weight: 800;
+    z-index: 12;
+    margin-right:8px;
+    /* letter-spacing: -11px; */
+}
+
+.paging_box {
+	width: 100%;
+	height: 52px;
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid rgba(115, 158, 187, 0.4);
+	border-radius: 30px;
+	background-color: orange;
+	margin-top: 30px;
+	padding: 0 20px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.paging_box .swiper-pagination {
+	position: absolute;
     display: none;
     padding: 0;
     margin: -200px;
+    flex-grow: 1; 		/* 너비를 자동으로 조정하여 가운데 배치 */
+    text-align: center; /* 페이지네이션 텍스트가 있을 경우 중앙 정렬 */
 }
 
-.swiper-prev, .swiper-next{ 
+
+.paging_box .swiper-prev,
+.paging_box .swiper-next {
+	position: absolute;
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -360,15 +390,11 @@ i{
     top: 310px;
 }
 
-.swiper-prev {
+.paging_box .swiper-prev {
     z-index: 10;
-    margin-top: 20px;
 }
 
-.swiper-next { 
-    position: absolute;
-    margin-left: 500px;
-    margin-top: 50px;
+.paging_box .swiper-next { 
     z-index: 11;
 }
 

@@ -3,7 +3,7 @@
 console.log(12345);
 
 const swiper = new Swiper('.swiper-container', {
-    direction: 'horizontal',
+    direction: 'vertical',
     loop: false,
     // autoplay: false,
     slidesPerView: 4,

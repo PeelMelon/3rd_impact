@@ -283,20 +283,22 @@
                 <!-- 20 -->
                 </div>
             </div>
-            <div class="swiper-pagination"></div>
-            <div class="swiper-prev">
-                <span class="material-symbols-outlined">
-                    chevron_backward
-                </span>
-            </div>
-            <div class="swiper-next">
-                <span class="material-symbols-outlined">
-                    chevron_forward
-                </span>
-            </div>
-        </div> 
-    </section>
-</div>
+	   		<div class=paging_box>
+	            	<div class="swiper-prev">
+		                <span class="material-symbols-outlined">
+		                    chevron_backward
+		                </span>
+	            	</div>
+	            	<div class="swiper-pagination"></div>
+	            	<div class="swiper-next">
+		                <span class="material-symbols-outlined">
+		                    chevron_forward
+		                </span>
+	            	</div>
+				</div>
+        	</div> 
+    	</section>
+	</div>
 
     <section class="bottom_menu">
         <div class="bot_title">
