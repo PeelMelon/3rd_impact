@@ -224,6 +224,7 @@ i{
     gap: 20px;
     box-sizing: border-box;
 }
+
 .container .video{
     width: calc(33.3333% - 13.33px);
     cursor: pointer;
