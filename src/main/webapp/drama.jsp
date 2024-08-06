@@ -356,60 +356,60 @@
         <div class="bot_content">
 			<div class="video">
                 <div class="thumbnail">
-                    <img src="https://i.ytimg.com/vi/ROjFr9yz0tI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBBMnCqyoipls2ieWWSLwXL2A56pg" alt="">
+                    <img src="./drama_images/drama_thum/3315f8d2-8c7b-4112-ad49-3ac09561670b_B.jpg" alt="dato">
                 </div>
                 <div class="details">
                     <div class="logo">
-                        <img src="https://yt3.ggpht.com/u-wNEA8k1heDBtOU92ZapUEc3i7scrh_eI6usjVdGwymgIi8olLNwUJgjq2S5iaxCYLEjpaZ=s68-c-k-c0x00ffffff-no-rj" alt="">
+                        <img src="./drama_images/drama_thum/009c0c76-2a59-4613-b72e-71fdf0b0535f.png" alt="hap">
                     </div>
                     <div class="title">
-                        <h2> How To Build A $10,000 Website With No-Code +AI  </h2>
-                        <a href="#">WeAreNoCode</a>
+                        <h2>[6화 선공개] ＂하던 거 마저 해❤＂ 김소현💛채종협 꽁냥 데이트!</h2>
+                        <a href="#">우연일까?</a>
                         <span>video views · time </span>
                     </div>
                 </div>
             </div>
             <div class="video">
                 <div class="thumbnail">
-                    <img src="https://i.ytimg.com/vi/ROjFr9yz0tI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBBMnCqyoipls2ieWWSLwXL2A56pg" alt="">
+                    <img src="./drama_images/drama_thum/8a989b1d-7d89-49a3-9565-058c5fb25070_B.jpg" alt="nn">
                 </div>
                 <div class="details">
                     <div class="logo">
-                        <img src="https://yt3.ggpht.com/u-wNEA8k1heDBtOU92ZapUEc3i7scrh_eI6usjVdGwymgIi8olLNwUJgjq2S5iaxCYLEjpaZ=s68-c-k-c0x00ffffff-no-rj" alt="">
+                        <img src="./drama_images/drama_thum/009c0c76-2a59-4613-b72e-71fdf0b0535f.png" alt="hap">
                     </div>
                     <div class="title">
-                        <h2> How To Build A $10,000 Website With No-Code +AI  </h2>
-                        <a href="#">WeAreNoCode</a>
+                        <h2>[6화 예고 full] 김소현이 이름만 불러줘도 좋은 채종협</h2>
+                        <a href="#">우연일까?</a>
                         <span>video views · time </span>
                     </div>
                 </div>
             </div>
             <div class="video">
                 <div class="thumbnail">
-                    <img src="https://i.ytimg.com/vi/ROjFr9yz0tI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBBMnCqyoipls2ieWWSLwXL2A56pg" alt="">
+                    <img src="./drama_images/drama_thum/0c99a99e-8c47-4c72-b048-c944f9218e4a_B.jpg" alt="">
                 </div>
                 <div class="details">
                     <div class="logo">
-                        <img src="https://yt3.ggpht.com/u-wNEA8k1heDBtOU92ZapUEc3i7scrh_eI6usjVdGwymgIi8olLNwUJgjq2S5iaxCYLEjpaZ=s68-c-k-c0x00ffffff-no-rj" alt="">
+                        <img src="./drama_images/drama_thum/009c0c76-2a59-4613-b72e-71fdf0b0535f.png" alt="">
                     </div>
                     <div class="title">
-                        <h2> How To Build A $10,000 Website With No-Code +AI  </h2>
-                        <a href="#">WeAreNoCode</a>
+                        <h2>[스페셜 선공개] ＂나 신경 쓰여 죽겠는 너랑 있는 거 좋아＂</h2>
+                        <a href="#">우연일까?</a>
                         <span>video views · time </span>
                     </div>
                 </div>
             </div>
             <div class="video">
                 <div class="thumbnail">
-                    <img src="https://i.ytimg.com/vi/ROjFr9yz0tI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBBMnCqyoipls2ieWWSLwXL2A56pg" alt="">
+                    <img src="./drama_images/drama_thum/1722406111724.jpg" alt="sq">
                 </div>
                 <div class="details">
                     <div class="logo">
-                        <img src="https://yt3.ggpht.com/u-wNEA8k1heDBtOU92ZapUEc3i7scrh_eI6usjVdGwymgIi8olLNwUJgjq2S5iaxCYLEjpaZ=s68-c-k-c0x00ffffff-no-rj" alt="">
+                        <img src="./drama_images/drama_thum/1467093547237.png" alt="np">
                     </div>
                     <div class="title">
-                        <h2> How To Build A $10,000 Website With No-Code +AI  </h2>
-                        <a href="#">WeAreNoCode</a>
+                        <h2>[넷플릭스] 오징어 게임 시즌2 | 공개일 발표</h2>
+                        <a href="#">Netflix Korea</a>
                         <span>video views · time </span>
                     </div>
                 </div>
