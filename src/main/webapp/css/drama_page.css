@@ -410,6 +410,7 @@ i{
     transition: background-color 0.3s ease, opacity 0.3s ease;
     top: 150px;
     overflow: visible;
+    transition: opacity 0.3s ease;
 }
 
 .swiper-prev {
