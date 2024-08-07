@@ -410,6 +410,9 @@ i{
     transition: background-color 0.3s ease, opacity 0.3s ease;
     top: 150px;
     overflow: visible;
+    /* 추가된 부분 */
+    opacity: 0; /* 버튼을 숨기기 위한 초기 상태 */
+    pointer-events: none; /* 보이지 않는 상태에서는 클릭을 막기 */
 }
 
 .swiper-prev {
@@ -437,6 +440,26 @@ i{
     justify-content: center;
     position: relative;
     top: 5px;
+}
+
+.swiper-prev .material-symbols-outlined,
+.swiper-next .material-symbols-outlined {
+    font-size: 30px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 5px;
+    user-select: none;
+    text-align: center;
+    pointer-events: none;
+}
+
+/* 슬라이드 요소에 마우스를 올렸을 때 버튼 표시 */
+.top20_box:hover .swiper-prev,
+.top20_box:hover .swiper-next {
+    opacity: 1; /* 버튼을 보이게 하기 위한 상태 */
+    pointer-events: auto; /* 클릭 가능하도록 설정 */
 }
 
 .bot_title {

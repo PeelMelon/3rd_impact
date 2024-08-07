@@ -63,9 +63,16 @@
                 });
             </script>
             
-            <div class="nav-item">
+            <div class="nav-item" id="drama-button">
                 <i class="fa-solid fa-clapperboard"></i>
-                <span>영화</span>
+                <span>드라마</span>
+                
+			<script>
+                document.getElementById('drama-button').addEventListener('click', function() {
+                    window.location.href = 'drama.jsp'; // 드라마
+                });
+            </script>
+                
             </div>
             <div class="nav-item">
                 <i class="fa-solid fa-tower-broadcast"></i>
