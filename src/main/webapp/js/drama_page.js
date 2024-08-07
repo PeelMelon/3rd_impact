@@ -3,9 +3,9 @@ $(document).ready(function() {
 
 	// 사이드바 토글 기능
 	$("#toggleButton").click(function() {
-    $("#sidebar").toggleClass("hidden");
-    $(".video_selection").toggleClass("moved");
-});
+    	$("#sidebar").toggleClass("hidden");
+    	$(".video_selection").toggleClass("moved");
+	});
 
 	// 서브메뉴 토글 기능
 	const navItem = document.querySelector('.nav-item.na');
@@ -50,28 +50,34 @@ $(document).ready(function() {
 			},
 		},
 		on: {
-			init: function() { // 초기화 시 호출
-				if (this.slides.length <= 1) {
-				jQuery('.product-slider_nav').hide();
-			}
-		},
-		slideChange: function() { // 슬라이드 변경 시 호출
-			// 첫 번째 페이지에서는 이전 버튼 숨기기
-			if (this.isBeginning) {
-				jQuery('.swiper-prev').hide();
-			} else {
-				jQuery('.swiper-prev').show();
-	        }
-	
-			// 마지막 페이지에서는 다음 버튼 숨기기
-			if (this.isEnd) {
-				jQuery('.swiper-next').hide();
-			} else {
-				jQuery('.swiper-next').show();
-	        	}
+			init: function() {
+				updateNavigationButtons(this); // 초기화 시 버튼 상태 업데이트
+			},
+			slideChange: function() {
+				updateNavigationButtons(this); // 슬라이드 변경 시 버튼 상태 업데이트
 			},
 		}
 	});
+
+	// 네비게이션 버튼 상태 업데이트 함수
+	function updateNavigationButtons(swiper) {
+		const { isBeginning, isEnd } = swiper;
+
+		const prevButton = document.querySelector('.swiper-prev');
+		const nextButton = document.querySelector('.swiper-next');
+
+		if (isBeginning) {
+			prevButton.style.display = 'none'; // 첫 번째 페이지에서는 이전 버튼 숨기기
+		} else {
+			prevButton.style.display = 'block'; // 그렇지 않으면 이전 버튼 보이기
+	}
+
+		if (isEnd) {
+		      nextButton.style.display = 'none'; // 마지막 페이지에서는 다음 버튼 숨기기
+		} else {
+		      nextButton.style.display = 'block'; // 그렇지 않으면 다음 버튼 보이기
+		}
+	}
 });
 
 
