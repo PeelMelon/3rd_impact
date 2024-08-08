@@ -79,6 +79,7 @@
         </button>
         <a href="./main.jsp">
         <img src="./images/logo1.png" alt="집요정TV">
+        </a>
     </div>
 
     <div class="search">
