@@ -341,7 +341,6 @@ i{
     left: 13px;
 }
 
-
 .swiper-wrapper .swiper-slide {
 	cursor: pointer;
 	z-index: 5;
@@ -433,6 +432,7 @@ i{
     position: relative;
     top: 5px;
 }
+
 .swiper-next .material-symbols-outlined {
     font-size: 30px;
     font-weight: 700;
@@ -508,7 +508,6 @@ i{
 	background-color: #2f5a91; /* 클릭 시 더 어두운 파란색 배경 */
 	color: #ffffff; /* 클릭 시 흰색 글자 */
 }
-
 
 
 /*  */

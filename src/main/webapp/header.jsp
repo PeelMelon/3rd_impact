@@ -36,11 +36,24 @@
             <a href="logout.jsp">
             <button class="logout-btn">Logout</button>
             </a>
-            <a href="upload_form.jsp"><i class="fas fa-video"></i></a>
+            <i class="fas fa-video" id="uploadIcon"></i>
             <i class="fas fa-ellipsis-h"></i>
             <i class="fas fa-bell"></i>
+            
+            
         <%
             }
         %>
     </div>
    </header>
+   
+   <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>업로드 방법을 선택하세요</p>
+            <button class="modal-button" id="file-upload">파일 업로드</button>
+            <button class="modal-button" id="url-upload">URL 업로드</button>
+            <button class="modal-button" id="cancel-upload">취소</button>
+        </div>
+    </div>
+   

@@ -6,11 +6,6 @@
 <%@ page import = "java.sql.SQLException" %>
 <%@ page import = "dob.DBManager" %>
 
-<%
-    HttpSession session1 = request.getSession(false);
-    String memberID = (session != null) ? (String) session.getAttribute("memberID") : null;
-%>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -34,7 +29,7 @@
     <link href="./css/popup.css" rel="stylesheet">
     <link href="./css/sidebar.css" rel="stylesheet">
     <!-- 오픈 그래프 설정(더 많은 속성을 보고 싶으면 https://ogp.me) -->
-    <meta property="og:image" content="https:/www.youtube.com/img/desktop/yt_1200.png">
+    <meta property="og:image" content="https://www.youtube.com/img/desktop/yt_1200.png">
     <meta property="fb:app_id" content="87741124305">
     <meta name="description" content="YouTube에서 마음에 드는 동영상과 음악을 감상하고, 직접 만든 콘텐츠를 업로드하여 친구, 가족뿐 아니라 전 세계 사람들과 콘텐츠를 공유할 수 있습니다.">
     <meta name="keywords" content="동영상, 공유, 카메라폰, 동영상폰, 무료, 올리기">
@@ -72,44 +67,7 @@
 </head>
 <body>
     <!-- ------HEADER ------ -->
-    <header class="header">
-    <div class="header_logo">
-        <button id = "toggleButton">
-            <i class = "fas fa-bars"></i>
-        </button>
-        <a href="./main.jsp">
-        <img src="./images/logo1.png" alt="집요정TV">
-        </a>
-    </div>
-
-    <div class="search">
-        <form action="">
-            <div class = "search-inner">
-            <input type="search" placeholder="검색">
-            </div>
-            <button><i class="fas fa-search"></i></button>
-        </form>
-    </div>
-    <div class="header_icons">	
-        <%
-            if (memberID == null) {
-        %>
-            <a href="login.jsp"><i id="login" class="fas fa-user-circle">로그인</i></a>
-        <%
-            } else {
-        %>
-            <span id="my_id"><%= memberID %></span>
-            <a href="logout.jsp">
-            <button class="logout-btn">Logout</button>
-            </a>
-            <a href="upload_form.jsp"><i class="fas fa-video"></i></a>
-            <i class="fas fa-ellipsis-h"></i>
-            <i class="fas fa-bell"></i>
-        <%
-            }
-        %>
-    </div>
-    </header>
+    <%@ include file="./header.jsp" %>
     
     <!------MAIN------>
     <div class="YtBody">
