@@ -18,8 +18,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>drama_main</title>
-    <link rel="stylesheet" href="./css/drama_page.css">
-    <!-- <link rel="stylesheet" href="/YouTube/css/main.css"> -->
     <script
     src="https:/code.jquery.com/jquery-3.7.1.js"
     integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
@@ -30,9 +28,11 @@
     <!-- reset.css 세팅(cdn) -->
     <link href="https:/cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css" rel="stylesheet">
     <!-- 커스템 css파일 세팅(local) -->
+    <link rel="stylesheet" href="./css/drama_page.css">
     <link href="./css/youtubemain.css" rel="stylesheet">
     <link href="./css/music.css" rel="stylesheet">
     <link href="./css/popup.css" rel="stylesheet">
+    <link href="./css/sidebar.css" rel="stylesheet">
     <!-- 오픈 그래프 설정(더 많은 속성을 보고 싶으면 https://ogp.me) -->
     <meta property="og:image" content="https:/www.youtube.com/img/desktop/yt_1200.png">
     <meta property="fb:app_id" content="87741124305">
