@@ -253,7 +253,7 @@
                     </div>
                 </div>
             </div>
-            <div class="video">
+            <div class="video"> <!-- 깃허브 업데이트용 -->
                 <div class="thumbnail">
                     <img src="./drama_images/drama_thum/0c99a99e-8c47-4c72-b048-c944f9218e4a_B.jpg" alt="">
                 </div>
