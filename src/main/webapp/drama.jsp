@@ -72,7 +72,7 @@
 </head>
 <body>
     <!-- ------HEADER ------ -->
-   <header class="header">
+    <header class="header">
     <div class="header_logo">
         <button id = "toggleButton">
             <i class = "fas fa-bars"></i>
@@ -90,7 +90,7 @@
         </form>
     </div>
     <div class="header_icons">	
-    	 <%
+        <%
             if (memberID == null) {
         %>
             <a href="login.jsp"><i id="login" class="fas fa-user-circle">로그인</i></a>
@@ -108,12 +108,12 @@
             }
         %>
     </div>
-   </header>
+    </header>
     
-           <!------MAIN------>
-   <div class="YtBody">
+    <!------MAIN------>
+    <div class="YtBody">
     <%@ include file="./sidebar.jsp" %>
- 	<div class="video_selection">
+    <div class="video_selection">
 		<div class="recommendboxes">
 			<button class="box">전체</button>
 			<button class="box">해외드라마</button>
@@ -256,12 +256,12 @@
 	
     <section class="bottom_menu">
         <div class="bot_title">
-        	<button class="title_btn_a">
-        		지금 인기
-        	</button>
+            <button class="title_btn_a">
+                지금 인기
+            </button>
 			<button class="title_btn_b">
-        		급상승
-        	</button>
+                급상승
+            </button>
         </div>
         <div class="bot_content">
 			<div class="video">

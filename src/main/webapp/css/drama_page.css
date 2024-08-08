@@ -329,7 +329,7 @@ i{
     z-index: 3;
 }
 
-.swiper-container{
+.swiper-container{ /*  */
     width: 100%;
     margin-bottom: 100px; 
 }
@@ -341,20 +341,20 @@ i{
     left: 13px;
 }
 
+
 .swiper-wrapper .swiper-slide {
 	cursor: pointer;
 	z-index: 5;
 }
 
-.top20_box .swiper-slide img {
+.top20_box .swiper-slide img { /*  */
     width: 213px;
-    height: 306px; 
+    height: 306px;
     border-radius: 13px;
     border: 1px solid rgba(115, 158, 187, 0.4);
     overflow: hidden;
     z-index: 6;
 }
-
 
 .top20_box .swiper-slide img.crop {
     width: 213px;
